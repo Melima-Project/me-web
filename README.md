@@ -28,6 +28,6 @@ You can serve Melima Web from [Melima Core](https://github.com/Melima-Project/me
 You can use your favorite web-server, but we recommend you to stick with Nginx.  
 
 Recommended Nginx repositories:  
-https://nginx.org/en/linux_packages.html#mainline
-https://github.com/cryptofuture/nginx-hda-bundle/
+https://nginx.org/en/linux_packages.html#mainline  
+https://github.com/cryptofuture/nginx-hda-bundle/  
 https://launchpad.net/%7Ehda-me/+archive/ubuntu/nginx-stable
