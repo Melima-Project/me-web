@@ -15,7 +15,7 @@ Using common JavaScript libraries makes MAI very friendly for novice developers.
 
 ## Getting Started
     
-Take a look at the [getting started guide]().
+Take a look at the [getting started guide](https://github.com/Melima-Project/me-core/wiki/Getting-started).
 
 ## Serving  
 
