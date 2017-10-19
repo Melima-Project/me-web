@@ -70,19 +70,19 @@
 <form>
 <div class="form-group">
     <label for="formName">Name</label>
-    <input type="text" class="form-control" id="formGroupName{{:id}}" placeholder="Item name" data-validation="required letternumeric length" data-validation-length="3-64" value="{{:Name}}" required>
+    <input type="text" class="form-control" id="formGroupName{{:id}}" placeholder="Item name" data-validation="required letternumeric length" data-validation-length="2-64" value="{{:Name}}" required>
   </div>
   <div class="form-group">
     <label for="formPrice">Price</label>
-    <input type="text" class="form-control" id="formGroupPrice{{:id}}" placeholder="Item price" data-validation="required number" data-validation-allowing="range[1;100000]" value="{{:Price}}" required>
+    <input type="text" class="form-control" id="formGroupPrice{{:id}}" placeholder="Item price" data-validation="required number" data-validation-allowing="float" value="{{:Price}}" required>
   </div>
   <div class="form-group">
     <label for="formCountAvailable">Count available</label>
-    <input type="text" class="form-control" id="formGroupCountAvailable{{:id}}" placeholder="Count available" data-validation="number" data-validation-allowing="range[1;10000]" value="{{:CountAvailable}}">
+    <input type="text" class="form-control" id="formGroupCountAvailable{{:id}}" placeholder="Count available" data-validation="number" data-validation-allowing="range[1;2147483647]" value="{{:CountAvailable}}">
   </div>
   <div class="form-group">
     <label for="formDiscountPercent">Discount percent</label>
-    <input type="text" class="form-control" id="formGroupDiscountPercent{{:id}}" placeholder="Discount percent" data-validation="number" data-validation-allowing="range[0.1;1],float" value="{{:DiscountPercent}}">
+    <input type="text" class="form-control" id="formGroupDiscountPercent{{:id}}" placeholder="Discount percent" data-validation="number" data-validation-allowing="range[0.01;1],float" value="{{:DiscountPercent}}">
   </div>
   <div class="form-group">
     <label for="formDiscountPercent">Description</label>
@@ -90,7 +90,7 @@
   </div>
   <div class="form-group">
     <label for="formSerialNumber">Serial number</label>
-    <input type="text" class="form-control" id="formGroupSerialNumber{{:id}}" placeholder="Serial number" data-validation="number" data-validation-allowing="range[0;100000000]" value="{{:SerialNumber}}">
+    <input type="text" class="form-control" id="formGroupSerialNumber{{:id}}" placeholder="Serial number" data-validation="number" data-validation-length="0-300" value="{{:SerialNumber}}">
   </div>
   <div class="form-group">
     <label for="formId">ID</label>
@@ -106,11 +106,11 @@
 <form>
 <div class="form-group">
     <label for="formTable">Table</label>
-    <input type="text" class="form-control" id="formOrderGroupTable{{:id}}" placeholder="Table number" data-validation="required number" data-validation-allowing="range[1;100]" value="{{:Table}}" required>
+    <input type="text" class="form-control" id="formOrderGroupTable{{:id}}" placeholder="Table number" data-validation="required number" data-validation-allowing="range[1;100000]" value="{{:Table}}" required>
   </div>
   <div class="form-group">
     <label for="formCount">Count</label>
-    <input type="text" class="form-control" id="formOrderGroupCount{{:id}}" placeholder="Order Count" data-validation="required number" data-validation-allowing="range[1;100]" value="{{:Count}}" required>
+    <input type="text" class="form-control" id="formOrderGroupCount{{:id}}" placeholder="Order Count" data-validation="required number" data-validation-allowing="range[1;2147483647]" value="{{:Count}}" required>
   </div>
   <div class="form-group">
     <label for="formClientName">Client name</label>
@@ -134,19 +134,19 @@
   </div>
 <div class="form-group">
     <label for="formName">Name</label>
-    <input type="text" class="form-control" id="formOrderGroupName{{:id}}" placeholder="Item name" data-validation="required letternumeric length" data-validation-length="3-64" value="{{:Name}}" required>
+    <input type="text" class="form-control" id="formOrderGroupName{{:id}}" placeholder="Item name" data-validation="required letternumeric length" data-validation-length="2-64" value="{{:Name}}" required>
   </div>
   <div class="form-group">
     <label for="formPrice">Price</label>
-    <input type="text" class="form-control" id="formOrderGroupPrice{{:id}}" placeholder="Item price" data-validation="required number" data-validation-allowing="range[1;100000]" value="{{:Price}}" required>
+    <input type="text" class="form-control" id="formOrderGroupPrice{{:id}}" placeholder="Item price" data-validation="required number" data-validation-allowing="float" value="{{:Price}}" required>
   </div>
   <div class="form-group">
     <label for="formCountAvailable">Count available</label>
-    <input type="text" class="form-control" id="formOrderGroupCountAvailable{{:id}}" placeholder="Count available" data-validation="number" data-validation-allowing="range[1;10000]" value="{{:CountAvailable}}">
+    <input type="text" class="form-control" id="formOrderGroupCountAvailable{{:id}}" placeholder="Count available" data-validation="number" data-validation-allowing="range[1;2147483647]" value="{{:CountAvailable}}">
   </div>
   <div class="form-group">
     <label for="formDiscountPercent">Discount percent</label>
-    <input type="text" class="form-control" id="formOrderGroupDiscountPercent{{:id}}" placeholder="Discount percent" data-validation="number" data-validation-allowing="range[0.1;1],float" value="{{:DiscountPercent}}">
+    <input type="text" class="form-control" id="formOrderGroupDiscountPercent{{:id}}" placeholder="Discount percent" data-validation="number" data-validation-allowing="range[0.01;1],float" value="{{:DiscountPercent}}">
   </div>
   <div class="form-group">
     <label for="formDiscountPercent">Description</label>
@@ -154,7 +154,7 @@
   </div>
   <div class="form-group">
     <label for="formSerialNumber">Serial number</label>
-    <input type="text" class="form-control" id="formOrderGroupSerialNumber{{:id}}" placeholder="Serial number" data-validation="number" data-validation-allowing="range[0;100000000]" value="{{:SerialNumber}}">
+    <input type="text" class="form-control" id="formOrderGroupSerialNumber{{:id}}" placeholder="Serial number" data-validation="number" data-validation-length="0-300" value="{{:SerialNumber}}">
   </div>
   <div class="form-group">
     <label for="formFinished">Order State</label>
